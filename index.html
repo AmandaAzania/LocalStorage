@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container d-flex justify-content-center">
+      <div class="row">
+          <div class="col-md-12 d-flex flex-column">
+              <label for="name">Name:</label>
+              <input class="form-control" id="name" type="text" placeholder="Enter your name">
+              <label for="surname">Surname:</label>
+              <input class="form-control" id="surname" type="text" placeholder="Enter your surname">
+              <label for="age">Color in Rgb:</label>
+              <input class="form-control" id="rgbColor" onkeyup="rgbToHex()" type="text" placeholder="Enter your rgbColor">
+              <button id="addRecord" class="btn btn-primary">Add record</button>
+          </div>
+      </div>
+  </div>
+
+  <script src="./code.js"></script>
+</body>
+</html>
